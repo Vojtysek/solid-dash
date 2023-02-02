@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-    background-color: #262626;
+* {
+  background-color: #262626;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidebar-tooltip {
+  @apply absolute w-max min-w-max p-2 m-4 left-14 rounded-md shadow-md text-purple-400 scale-0 bg-gray-900 text-sm font-bold transition-all duration-100 origin-left;
 }
